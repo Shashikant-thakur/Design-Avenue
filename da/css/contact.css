@@ -1,0 +1,70 @@
+body{
+    /* max-width: 1500px; */
+    margin: auto;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBackgroundStart{
+    background-color: white;
+}
+.nav-link,.dropdown-item{
+    color: black !important;
+}
+.brand-name{
+    color: #F3C5C5; 
+    font-weight: 700;
+}
+
+.offcanvas{
+    background-color: #FFF5FA !important;
+    max-width: 80%;
+}
+
+.bg-img{ 
+   max-width: 100%;
+}
+.img-1{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.contact-bg{
+    padding: 100px 0px 100px 0px;
+    background-image: url('../imgs/pink-hexa.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.my_card{
+    background-color: #FFF6F7 !important; 
+    border-radius: 10px; 
+    opacity: 0.8;
+}
+.my_card:hover{
+    opacity: 1;
+}
+
+.modal{
+    padding: 50px;
+    overflow: hidden;
+    background-image: url('../imgs/123Z_2012.w020.n001.931B.p15.931.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.get_started{
+    background-image: linear-gradient(to right,#FFF6F7, #FEE4E7);
+}
+
+@media (max-width:370px) {
+    .brand-logo{
+        width: 30px !important;
+        height: 30px !important;
+        object-fit: cover;
+    }
+    .brand-name{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,117 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navBackgroundStart{
+    background-color: white;
+}
+.nav-link, .dropdown-item{
+    color:#2F4858 !important;
+}
+.brand-name{
+    color: #F3C5C5; 
+    font-weight: 700;
+}
+
+.offcanvas{
+    background-color: #FFF5FA !important;
+    max-width: 80%;
+}
+#footer_{
+    display: block;
+    color: #2F4858;
+    box-sizing: border-box;
+    height: 500px;
+    background-color: #2F4858;
+    clip-path: ellipse(63% 100% at 50% 100%);
+    padding-top: 150px;
+}
+.container-1{
+    
+    background-image: url("../imgs/litho_bg_img_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+@media (max-width:1200px) AND (min-width:1000px) {
+    .container-1{
+      padding-top: 120px;
+    }
+}
+.container-2{
+    
+    background-image: url("../imgs/litho_bg_img_4.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.welcome_text{
+    align-items: center;
+    align-self: center;
+}
+.container-img{
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.discover-btn:hover{
+    background-color:  #FEE4E7;
+    color: black;
+}
+.services{
+    margin-top: 100px;
+}
+
+.services_hover_effect{
+    padding: 20px 30px 20px 30px;
+}
+.services_hover_effect:hover{
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.get_started{
+    background-image: linear-gradient(to right,#FFF6F7, #FFE5E8);
+}
+.testimonal_container{
+   
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url("./imgs/testimonal-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+
+@media (max-width:370px) {
+    .brand-logo{
+        width: 30px !important;
+        height: 30px !important;
+        object-fit: cover;
+    }
+    .brand-name{
+        font-size: 15px;
+    }
+    .services{
+        margin-top: 300px;
+    }
+}
+
+@media (max-width:900px) {
+    
+    .services{
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,46 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBackgroundStart{
+    background-color: white;
+}
+.nav-link,.dropdown-item{
+    color: black !important;
+}
+
+.brand-name{
+    color: #F3C5C5; 
+    font-weight: 700;
+}
+
+.offcanvas{
+    background-color: #FFF5FA !important;
+    max-width: 80%;
+}
+
+.tech-bg{
+    padding: 100px 0px 100px 0px;
+    background-image: url('../imgs/Animated\ Shape\ \(2\).svg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+.on_hover:hover{
+    border: 1px solid red;
+    box-shadow: 5px 10px 10px grey;
+}
+
+
+@media (max-width:370px) {
+    .brand-logo{
+        width: 30px !important;
+        height: 30px !important;
+        object-fit: cover;
+    }
+    .brand-name{
+        font-size: 15px;
+    }
+}

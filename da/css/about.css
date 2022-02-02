@@ -1,0 +1,354 @@
+
+body{
+    max-width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBackgroundStart{
+    background-color: white;
+}
+.brand-name{
+    color: #F3C5C5; 
+    font-weight: 700;
+}
+
+
+.nav-link,.dropdown-item{
+    color: black !important;
+}
+.offcanvas{
+    background-color: #FFF5FA !important;
+    max-width: 80%;
+}
+.offcanvas{
+    background-color: #FFF5FA !important;
+    max-width: 80%;
+}
+.about-bg{
+    padding: 150px 0px 150px 0px; 
+    background-image: url('../imgs/curve.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 100;
+    inherits: false;
+  }
+  
+.membership{
+    animation: counter 4s 1  ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    color: #2F4858;
+   
+  }
+  .membership::after {
+    content: counter(num);
+}
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+  
+@property --numtwo {
+    syntax: "<integer>";
+    initial-value: 10;
+    inherits: false;
+  }
+  
+  .companies{
+    animation: countertwo 2s 1  ease-in-out;
+    counter-reset: numtwo var(--numtwo);
+    font: 800 40px system-ui;
+    color:#2F4858;
+    
+  }
+  .companies::after {
+    content: counter(numtwo);
+   
+  }
+  
+  @keyframes countertwo {
+    from {
+      --numtwo: 0;
+    }
+    to {
+      --numtwo: 10;
+    }
+  }
+  
+@property --num3 {
+  syntax: "<integer>";
+  initial-value: 1000;
+  inherits: false;
+}
+
+.traniers{
+  animation: counter3 4s 1  ease-in-out;
+  counter-reset: num3 var(--num3);
+  font: 800 40px system-ui;
+  color:#2F4858;
+
+  
+}
+.traniers::after {
+  content: counter(num3);
+ 
+}
+
+@keyframes counter3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 1000;
+  }
+}
+
+@property --num4 {
+  syntax: "<integer>";
+  initial-value: 5;
+  inherits: false;
+}
+
+.year{
+  animation: year 1s 1  ease-in-out;
+  counter-reset: num4 var(--num4);
+  font: 800 40px system-ui;
+  color:#2F4858;
+
+  
+}
+.year::after {
+  content: counter(num4);
+}
+
+@keyframes year {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 5;
+  }
+}
+
+.testimonal_container{
+    padding-top: 100px;
+    width: 100%;
+   
+    background-image: url("../imgs/testimonal-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.tell-us-now{
+  display: none;
+}
+.social_media{
+  /* margin-top: -300px; */
+  margin: auto;
+  /* margin-top: -300px; */
+  height:40px;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#sm1{
+  background-image:url("../imgs/facebook.png");
+  background-size: cover;
+  width: 40px;
+  /* background-color: sandybrown; */
+}
+#sm3{
+  background-image:url("../imgs/youtube.png");
+  background-size: cover;
+  width: 40px;
+  /* background-color: sandybrown; */
+}
+#sm2{
+  background-image:url("../imgs/twitter.png");
+  background-size: cover;
+  width: 40px;
+  /* background-color: sandybrown; */
+}
+#sm4{
+  background-image:url("../imgs/5296501_linkedin_network_linkedin\ logo_icon.svg");
+  background-size: cover;
+  width: 40px;
+  /* background-color: sandybrown; */
+}
+
+.footer_{
+  display: block;
+  box-sizing: border-box;
+  height: 500px;
+  background-color: #fff6f7;
+  clip-path: ellipse(75% 100% at 50% 100%);
+  padding-top: 150px;
+  margin-top: 150px;
+}
+#footer__{
+  background-color: #F7F7F7;
+
+}
+
+
+/* 
+body{
+  max-width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBackgroundStart{
+  background-color: white;
+}
+.brand-name{
+  color: #F3C5C5; 
+  font-weight: 700;
+}
+
+
+.nav-link,.dropdown-item{
+  color: black !important;
+}
+.offcanvas{
+  background-color: #FFF5FA !important;
+  max-width: 80%;
+}
+.offcanvas{
+  background-color: #FFF5FA !important;
+  max-width: 80%;
+}
+.about-bg{
+  padding: 100px 0px 100px 0px; 
+  background-image: url('../imgs/fluffy-bg.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 100;
+  inherits: false;
+}
+
+.start> .membership{
+  animation: counter 4s 1  ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  
+}
+.start> .membership::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 100;
+  }
+}
+
+@property --numtwo {
+  syntax: "<integer>";
+  initial-value: 10;
+  inherits: false;
+}
+
+.start> .companies{
+  animation: countertwo 2s 1  ease-in-out;
+  counter-reset: numtwo var(--numtwo);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.start> .companies::after {
+  content: counter(numtwo);
+ 
+}
+
+@keyframes countertwo {
+  from {
+    --numtwo: 0;
+  }
+  to {
+    --numtwo: 10;
+  }
+}
+
+@property --num3 {
+syntax: "<integer>";
+initial-value: 1000;
+inherits: false;
+}
+.start> .traniers{
+animation: counter3 4s 1  ease-in-out;
+counter-reset: num3 var(--num3);
+font: 800 40px system-ui;
+padding: 2rem;
+}
+.start> .traniers::after {
+content: counter(num3);
+
+}
+
+@keyframes counter3 {
+from {
+  --num3: 0;
+}
+to {
+  --num3: 1000;
+}
+}
+
+@property --num4 {
+syntax: "<integer>";
+initial-value: 5;
+inherits: false;
+}
+
+.start> .year{
+animation: year 1s 1  ease-in-out;
+counter-reset: num4 var(--num4);
+font: 800 40px system-ui;
+padding: 2rem;
+}
+.start> .year::after {
+content: counter(num4);
+}
+
+@keyframes year {
+from {
+  --num4: 0;
+}
+to {
+  --num4: 5;
+}
+}
+
+.testimonal_container{
+  padding-top: 100px;
+  width: 100%;
+ 
+  background-image: url("../imgs/testimonal-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+} */
